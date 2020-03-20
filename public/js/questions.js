@@ -18,7 +18,7 @@ function GatherAnswers() {
 			    number :i,
 				answer : $('#answer'+i).val(),
 		    }
-	    }
+		}
 		$.post(`/questions`, newAnswer)
 	};
 };
