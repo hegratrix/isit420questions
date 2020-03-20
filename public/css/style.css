@@ -1,0 +1,5166 @@
+/*START GLOBALS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(../images/background.jpg); */
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+/*OUTER LAYER THAT HOLDS FILM STRIPS*/
+
+#decorativeFilmStrips {
+    width: 797px;
+    /* background-image: url(../images/filmstrip5.png); */
+    margin: 0 auto;
+    background-size: 25% 5%;
+    margin-top: -5px;
+}
+
+#section2TitleLogline {
+    width: 600px;
+}
+
+
+/*Fonts
+
+font-family: 'Coda Caption';font-size: 65px;
+
+*/
+
+
+/*HELLO WORLD FONT H1 NOT TO BE USED*/
+
+h1 {
+    font-family: 'VT323', monospace;
+    color: #66ff00;
+    font-size: 69px;
+    text-shadow: 2px 2px 5px #339933;
+}
+
+
+/*USE H2 TO INTRODUCE NEW SECTIONS ONLY*/
+
+h2 {
+    color: #ccff00;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 65px;
+    font-weight: 900;
+    font-variant: small-caps;
+    text-shadow: 3px 3px 1px #1e3805;
+}
+
+
+/*H3 USED FOR SUBTITLE*/
+
+h3 {
+    font-family: 'Passion One';
+    color: #ccff99;
+    font-size: 65px;
+    text-shadow: 4px 4px 0px #003300;
+}
+
+
+/*H4 LOGLINE RESPONSE*/
+
+h4 {
+    font-family: 'Advent Pro', sans-serif;
+    color: #ccffcc;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 3px 3px 0px #003300;
+}
+
+
+/*H5 THAT IS TEXT*/
+
+h5 {
+    font-family: 'Elsie', cursive;
+    color: #12ff00;
+    font-size: 115px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-shadow: 3px 3px 0px #0d2c06;
+}
+
+
+/*END GLOBALS*/
+
+
+/*START CONTENT SPECIFIC TAGS*/
+
+
+/*START SECTION 1 which HOLDS HELLO WORLD AND THE SMOKING IT IMAGE*/
+
+
+/*TYPING HELLO GROUP*/
+
+#helloWorld {
+    background-color: black;
+    padding: 25px;
+}
+
+#helloWorld h1 {
+    overflow: hidden;
+    width: auto;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #ccff99;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 5.5s steps(15, end), blink-caret .65s step-end infinite;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #66ff00;
+    }
+}
+
+
+/*INTRO TITLE TEXT*/
+
+
+/*END SECTION 1*/
+
+
+/*START SECTION 2 THE TITLE*/
+
+.titleTextGroup {
+    margin-top: -5px;
+    /* background-image: url(../images/strip.jpg); */
+    background-size: 100% 100%;
+    width: 600px;
+    height: 375px;
+}
+
+.mainTitle {
+    margin: 0 auto;
+    margin-top: -5px;
+    padding-top: 40px;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.green420 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 100px;
+    word-spacing: 15px;
+    font-family: 'Anton', sans-serif;
+    color: #66ff00;
+    text-shadow: 3px 3px 0px black;
+}
+
+
+/*END SECTION 2*/
+
+
+/*START SECTION 3 "ONLY TIME" SPINNING CLOCKS "THIS SITE MIGHT ANSWER"*/
+
+#onlyTimeText {
+    background-color: #336633;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#loglineResponse {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #66cc33;
+    position: relative;
+    margin-top: -15px;
+}
+
+
+/*END SECTION 3*/
+
+
+/*START SECTION 4 THAT IS TO THE FLIP 420 CLOCK*/
+
+#thatIs {
+    text-align: center;
+    font-variant: small-caps;
+    background-color: #99ff99;
+}
+
+#figureOutCoding {
+    text-align: center;
+    background-color: #336633;
+    padding: 50px 10px;
+    font-size: 50px;
+    color: #bee1aa;
+    word-spacing: 5px;
+    font-family: 'IBM Plex Serif';
+    text-shadow: 3px 3px 0px black;
+}
+
+
+/*END SECTION 4*/
+
+
+/*START SECTION 5 UNTIL THEN TO FLIP CLOCK*/
+
+#section5UntilThenToFlipClock {
+    text-align: center;
+    margin-top: -8px;
+    padding-top: 4px;
+}
+
+#untilThen {
+    color: #99cc99;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: 75px;
+    text-shadow: 3px 3px 0px #003300;
+    background-color: #009900;
+    font-family: 'Cinzel', serif;
+    padding-top: 25px;
+    padding-bottom: 10px
+}
+
+#checkBack {
+    font-family: 'Old Standard TT', serif;
+    color: #003300;
+    font-size: 70px;
+    background-color: #66cc33;
+    padding-top: 10px;
+    text-shadow: 2px 2px 0px #009900;
+}
+
+#soon {
+    font-size: 125px;
+    font-family: 'Saira Stencil One', cursive;
+    color: #ffff00;
+    background-color: #003300;
+    text-shadow: 3px 3px 1px #666600;
+}
+
+#andOften {
+    color: #fdfc01;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -45px;
+    color: #33ff00;
+    background-color: #003300;
+    text-shadow: 1px 1px 0px #ffff00;
+    padding-bottom: 45px;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+
+/*END SECTION 5*/
+
+
+/*START SECTION 6 FLYING CAR TO FIRST AD*/
+
+#ohYeahText {
+    font-family: 'Special Elite', cursive;
+    font-size: 22px;
+    color: #ffff00;
+    text-align: center;
+    margin-top: -5px;
+    background-color: #336600;
+    text-shadow: 2px 2px 0px black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#getToItSoonText {
+    font-family: 'Special Elite', cursive;
+    font-size: 35px;
+    color: #ffff00;
+    text-align: center;
+    margin-top: -5px;
+    background-color: #336600;
+    text-shadow: 3px 3px 0px black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#butFirstText {
+    color: #336600;
+    font-size: 50px;
+    text-align: center;
+    background-color: #ffff00;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px 0px #99cc99;
+}
+
+#schoolGroup {
+    background-color: #003300;
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+#itsTime {
+    font-family: 'Permanent Marker', cursive;
+    color: #ccff99;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 0px #009900;
+    padding-bottom: 50px;
+}
+
+#backToSchool {
+    font-family: 'Modak', cursive;
+    text-align: center;
+    color: #00ff00;
+    font-size: 65px;
+    text-shadow: 5px 5px 0px #006600;
+    padding-bottom: 50px;
+}
+
+#backtoSchoolText {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#canaCareers {
+    margin-bottom: -6px;
+}
+
+
+/*END SECTION 6*/
+
+
+/*START SECTION 7 WISH TO DIGITAL CLOCK*/
+
+#section7WishToDigitalClock {
+    background-color: #cccc33;
+    margin-top: -5px;
+}
+
+#IWishText {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    color: #339933;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-shadow: 2px 1px 0px #003300;
+}
+
+
+/*END SECTION 7*/
+
+
+/*START SECTION 8 LOONEY CLOCKS TO SOMETIMES IT IS*/
+
+#theySay420Somewhere {
+    background-color: #003300;
+    padding-bottom: 10px;
+    margin-top: -5px;
+}
+
+#asTheySay {
+    padding-top: 25px;
+    text-align: center;
+    background-color: #ffcc33;
+    padding-bottom: 25px;
+}
+
+#itsAlways420 {
+    font-family: 'Modak', cursive;
+    text-align: center;
+    color: #669966;
+    font-size: 80px;
+    text-shadow: 5px 5px 0px #006600;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#alwaysStrong {
+    text-align: center;
+    font-weight: 900;
+    font-size: 100px;
+    word-spacing: 15px;
+    font-family: 'Lobster', cursive;
+    color: #66ff00;
+    text-shadow: 3px 3px 0px #336633;
+    font-family: 'Atomic Age', cursive;
+}
+
+#wideAd {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background-color: darkorange;
+    margin-top: -5px;
+}
+
+#row {
+    padding-top: 25px;
+    background-color: #071001;
+    margin-top: -15px;
+    height: 450px;
+}
+
+.columnA {
+    float: left;
+    width: 43%;
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-right: 12.5px;
+    text-align: center;
+}
+
+.columnB {
+    float: right;
+    width: 43%;
+    padding: 25px;
+    padding-left: 12.5px;
+    text-align: center;
+}
+
+.imageTitle {
+    font-family: 'Cute Font', cursive;
+    font-size: 35px;
+    text-shadow: 3px 3px 0px #003300;
+    padding-bottom: 5px;
+    font-variant: small-caps;
+    background-color: #336633;
+}
+
+.smallAd {
+    padding-top: 25px;
+}
+
+#wellDiv {
+    margin-bottom: -25px;
+    text-align: center;
+}
+
+#wellSometimes {
+    text-align: center;
+}
+
+#sometimesAlways {
+    text-align: center;
+    background-color: #66ff00;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+#wellSometimes {
+    color: #339933;
+    font-size: 100px;
+    text-shadow: 3px 3px 0px #003300;
+}
+
+#sometimesAlwaysText {
+    font-size: 50px;
+}
+
+#somethingLikeThat {
+    color: #003300;
+    font-size: 40px;
+    padding-bottom: 25px;
+    text-shadow: 3px 3px 1px #339933;
+}
+
+
+/*END SECTION 8*/
+
+
+/*START SECTION 9 SLOTH TO NICK OFFERMAN*/
+
+#section9SlothToNickOfferman {
+    background-color: #336633;
+}
+
+#sloth {
+    margin-top: -10px;
+}
+
+.questions {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 75px;
+    color: #ccff00;
+    text-shadow: 3px 3px 0px #336633;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    text-decoration-color: #cccc33;
+    font-variant: small-caps;
+    background-color: #333300;
+    margin-bottom: 25px
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    /* list-style-image: url(../images/bong.png); */
+    color: #339933;
+    font-weight: 900;
+    text-shadow: 3px 3px 0px #003300;
+    font-size: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Racing Sans One', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+li {
+    padding-bottom: 25px;
+    padding-top: 25px
+}
+
+.liEM {
+    color: #cccc33;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-style: italic;
+    text-shadow: 3px 3px 0px #003300;
+    font-family: 'Oleo Script', cursive;
+    font-size: 40px;
+}
+
+.liStrong {
+    color: #ffff00;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0px #003300;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nickVid {
+    padding-top: 25px;
+}
+
+#adPaddingS9 {
+    background-color: #566A2B;
+    padding-bottom: 9px;
+}
+
+/*END SECTION 9*/
+
+
+/*START SECTION 10 FLYING CAR TO*/
+
+#flyingCarToFlyingCar {
+    background-color: greenyellow;
+    margin-top: -6px;
+    text-align: center;
+}
+
+#contentFlyingPlan {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+}
+
+#noFlyingCars {
+    color: rebeccapurple;
+    font-size: 30px;
+    text-shadow: 1px 1px 0px #089000;
+}
+
+#noFlyingCarsEM {
+    color: #663366;
+    font-size: 49px;
+    font-weight: 600;
+    text-shadow: 3px 2px 0px #330033;
+    font-family: 'Limelight', cursive;
+}
+
+#andStill {
+    color: #ffff00;
+    padding: 25px;
+    font-size: 50px;
+    font-family: 'Slackey', cursive;
+    text-shadow: 3px 2px 0px #330033;
+}
+
+#ageOfInternetStrong {
+    color: orange;
+    font-size: 34px;
+    font-weight: 900;
+    text-shadow: 3px 3px 0px #330033;
+    font-family: 'Changa One', cursive;
+}
+
+#youCanLearn {
+    color: seagreen;
+    font-size: 40px;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px 0px #330033;
+    font-family: 'Anton', sans-serif;
+}
+
+#onBus {
+    color: black;
+    text-shadow: 3px 3px 0px yellowgreen;
+    font-size: 50px;
+    background-color: #ffff00;
+    width: 600px;
+    margin-left: -25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 900;
+    font-family: 'Bangers', cursive;
+}
+
+#thePlanStrong {
+    color: #00ff00;
+    font-size: 40px;
+    background-color: darkgreen;
+    font-family: 'Fontdiner Swanky', cursive;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: -25px;
+    margin-left: -25px;
+    text-shadow: 3px 2px 0px #330033;
+}
+
+#celebrationImage {
+    margin-left: -25px;
+}
+
+#minusBusAndJob {
+    background-color: #663366;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: -5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#minusBus {
+    font-size: 45px;
+    color: #ffff00;
+    font-weight: 900;
+    text-shadow: 3px 3px 0px purple;
+    font-family: 'Limelight', cursive;
+}
+
+#andTheWork {
+    font-size: 50px;
+    color: #00ff00;
+    text-shadow: 3px 3px 0px purple;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+#wellNotTheMan {
+    font-size: 20px;
+    color: darkorange;
+    font-weight: 900;
+    text-shadow: 3px 3px 0px purple;
+    font-family: 'Special Elite', cursive;
+}
+
+#bwFlyingCar {
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-bottom: -5px;
+}
+
+
+/*END SECTION 10*/
+
+
+/*START SECTION 11 COMPUTER APE TO*/
+
+#section11ComputerApeTo {
+    background-color: orange;
+    padding-bottom: 25px;
+}
+
+#computerApe {
+    margin-top: -7px;
+    padding-bottom: 50px
+}
+
+#section11Text {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#butFirst {
+    font-size: 75px;
+    color: yellow;
+    text-shadow: 3px 2px 0px black;
+    font-family: 'Chicle', cursive;
+}
+
+#backToCoding {
+    font-size: 55px;
+    font-variant: small-caps;
+    color: seagreen;
+    font-weight: 900;
+    text-shadow: 3px 2px 0px black;
+    font-family: 'Passion One', cursive;
+}
+
+#toFurtherDevelop {
+    font-size: 43px;
+    color: purple;
+    font-weight: 900;
+    text-shadow: 3px 2px 0px black;
+    font-family: 'Spicy Rice', cursive;
+}
+
+#fulfillPromise {
+    font-size: 35px;
+    color: mediumpurple;
+    text-shadow: 3px 2px 0px black;
+    font-family: 'Boogaloo', cursive;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+#tellYou {
+    font-size: 35px;
+    color: lime;
+    text-shadow: 3px 2px 0px black;
+    font-weight: 900;
+    font-family: 'Bangers', cursive;
+    padding-top: 10px
+}
+
+
+/*END SECTION 11*/
+
+
+/*START SECTION 12 PS TO*/
+
+#section12PSToRooR {
+    background-color: chartreuse;
+}
+
+#flashingClock {
+    margin-top: -27px;
+}
+
+#psTextGroup {
+    color: limegreen;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 23px;
+    font-weight: 900;
+    text-shadow: 2px 2px 0px darkgreen;
+    padding: 25px;
+    padding-bottom: 38px;
+}
+
+.ps {
+    padding-top: 15px;
+}
+
+#miniAds {
+    background-color: yellow;
+}
+
+#grassCityAd {
+    height: 125px;
+    width: 600px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+#smokeKultureAd {
+    width: 600px;
+    height: 125px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#submitXDiv {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    width: 125px;
+    margin-right: 25px;
+    text-align: center;
+    margin-top: 7px;
+    color: #66cc33;
+    font-family: Impact, Charcoal, sans-serif;
+    float: right;
+    background-color: darkgreen;
+    margin-bottom: 10px;
+  
+    
+}
+
+.eacc-actions-button {
+    color: lime;
+}
+
+#toyAds {
+    margin-bottom: -5px;
+}
+
+#floatingBRB {
+    background-color: #fffc00;
+}
+
+#brb {
+    text-align: center;
+    color: #fdfc01;
+    padding: 50px;
+    font-size: 100px;
+    background-color: darkgreen;
+    margin-top: -5px;
+    text-shadow: 3px 3px 1px #1eff00;
+}
+
+#sniffTest {
+   background-color: white;
+    margin-bottom: -4px;
+    padding-bottom: 25px;
+    padding-top: 2px;   
+}
+
+#budman {
+    margin-bottom: -4px;
+}
+
+/*END SECTION 12*/
+
+
+/*START SECTION 13 BRB TO*/
+
+#section13Div {
+    background-color: lightgreen;
+}
+
+#GrillPhillIntro {
+    background-color: seagreen;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Special Elite', cursive;
+    font-weight: 900;
+    color: greenyellow;
+    text-shadow: 1px 2px 0px darkorange;
+    font-size: 25px;
+    margin-top: -5px
+}
+
+#philsHere {
+    font-size: 45px;
+    color: darkorange;
+    text-shadow: 3px 2px 0px greenyellow;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#titleTable420Phil {
+    width: 600px;
+    padding-top: 150px;
+    padding-bottom: 125px;
+    text-shadow: 3px 3px 1px darkgreen;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#haveAQuestion {
+    width: 125px;
+    color: white;
+    background-color: seagreen;
+    float: right;
+    border: 4px double darkseagreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logoBGPhil {
+    background-color: seagreen;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 4px double darkseagreen;
+    height: 64px;
+}
+
+#logoImage420Phil {
+    width: 170px;
+    position: relative;
+    margin-top: -70px;
+}
+
+#grill420Phil {
+    width: 125px;
+    color: white;
+    background-color: seagreen;
+    float: left;
+    border: 4px double darkseagreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#searchTitle420Phil {
+    width: 300px;
+    margin-left: 60px;
+    color: #003300;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-family: 'Elsie', cursive;
+    font-size: 23px;
+    text-shadow: 1px 1px 0px white;
+}
+
+#searchBox420Phil {
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#handsPhilText {
+    color: #003300;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-family: 'Elsie', cursive;
+    font-size: 23px;
+    text-shadow: 1px 1px 0px white;
+}
+
+#philsHands {
+    float: right;
+    width: 150px;
+    margin-top: -80px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+#philsHandsImage {
+    width: 75px;
+    margin-top: -5px
+}
+
+#underHands {
+    margin-top: 50px;
+}
+
+.hr420Phil {
+    border-color: white;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-width: 2px;
+}
+
+#philFooterTable {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sampleQuestion420Phil {
+    text-align: center;
+    color: seagreen;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: -8;
+    font-size: 50px;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 2px 2px 0px darkseagreen;
+    width: 375px;
+    border-bottom: 6px double mediumseagreen;
+    font-weight: 900;
+}
+
+#howToGrill {
+    color: #003300;
+    font-family: 'Elsie', cursive;
+    font-size: 19px;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px white;
+    text-align: center;
+}
+
+#questionInBox {
+    background-color: seagreen;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 4px double darkseagreen;
+    text-shadow: 2px 2px 0px darkgreen;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'Elsie', cursive;
+}
+
+#philQuestionOfDay {
+    text-align: center;
+    color: seagreen;
+    margin: 0 auto;
+    margin-bottom: -8;
+    font-size: 20px;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 2px 2px 0px darkseagreen;
+    width: 180px;
+    border-bottom: 6px double mediumseagreen;
+    font-weight: 900;
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+#isit420Phil {
+    color: #003300;
+    font-family: 'Elsie', cursive;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px white;
+    text-align: center;
+    float: left;
+    margin-left: 65px
+}
+
+#philLeafLeft {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+#randomQuestionForPhilHeader {
+    text-align: center;
+    color: seagreen;
+    margin: 0 auto;
+    margin-bottom: -8;
+    font-size: 20px;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 2px 2px 0px darkseagreen;
+    width: 180px;
+    border-bottom: 6px double mediumseagreen;
+    font-weight: 900;
+}
+
+#randomQuestionForPhil {
+    color: #003300;
+    font-family: 'Elsie', cursive;
+    font-size: 19px;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px white;
+    text-align: center;
+    float: left;
+    margin-left: 65px;
+    width: 180px;
+}
+
+#philLeafRight {
+    margin-top: 15px;
+}
+
+#philDuckReveal {
+    background-color: darkorange;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Special Elite', cursive;
+    font-weight: 900;
+    color: greenyellow;
+    text-shadow: 1px 2px 0px green;
+    font-size: 25px;
+}
+
+#philDuck {
+    margin-bottom: -5px;
+}
+
+#daveBotImage {
+    float: left;
+}
+
+#ohYeahRobotsDiv {
+    font-family: 'Special Elite', cursive;
+    color: whitesmoke;
+    margin-top: -4px;
+    background-color: olivedrab;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    height: 300px;
+    text-shadow: 1px 2px 0px orange;
+}
+
+#ohYeahBot {
+    color: orange;
+    float: right;
+    position: absolute;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    text-shadow: 1px 2px 0px whitesmoke;
+}
+
+#forgotBot {
+    font-size: 31px;
+    margin-top: 100px;
+    margin-left: 150px;
+    float: right;
+    position: absolute;
+}
+
+#alsoRobots {
+    font-size: 28px;
+    margin-left: 100px;
+    margin-top: 185px;
+    float: right;
+    position: absolute;
+}
+
+#robotsIntro {
+    color: orange;
+    float: right;
+    position: absolute;
+    font-weight: 900;
+    font-size: 75px;
+    margin-top: 250px;
+    margin-left: 60px;
+    text-shadow: 1px 2px 0px whitesmoke;
+}
+
+#roBoDanceImage {
+    float: right;
+    margin-top: 125px;
+}
+/*END SECTION 13*/
+
+
+/*START SECTION 14 4:20 Questions*/
+
+#yourTurn {
+    background-color: #663366;
+    width: 600px;
+    margin-top: -4px;
+    padding-top: 50px;
+    padding-bottom: 50PX;  
+}
+
+#didPhilAnswer {
+    font-size: 60px;
+    padding-bottom: 25px;
+    color: #ff33ff;
+    font-weight: 900;
+    text-shadow: 2px 2px 0px #cc0099;
+    text-align: center;
+    font-family: 'Cute Font', cursive;
+}
+
+#youGetGrilled {
+    font-size: 65px;
+    padding-bottom: 25px;
+     color: #9966cc;
+    font-weight: 900;
+    text-shadow: 3px 2px 0px #330033;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-variant: small-caps;
+
+}
+
+#learnForms {
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Special Elite', cursive;
+    color: #330033;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px #9966cc;
+    text-align: center;
+}
+
+#bakedToPlay {
+    font-family: 'Special Elite', cursive;
+    font-size: 46px;
+    color: #cc0099;
+    font-weight: 900;
+    text-shadow: 2px 1px 0px #ff33ff;
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+}
+
+#learnFormsTitle {
+    text-align: center;
+   
+    text-shadow: 4px 4px 0px #336633;
+    text-align: center;
+    margin-top: -4px;
+    padding-top: 50px;
+    padding-bottom: 50PX;
+    font-size: 75px;
+    color:  darkseagreen;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+}
+
+#section14420Questions {
+    /* background-image:url(../images/questionBG.jpg); */
+    background-size: 100%;  
+    height: 35100px;
+}
+
+#noteOpacity {
+    background-color: #336633;
+    opacity: .9;
+    margin: 0 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+
+}
+
+#questionParenthetical {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Special Elite', cursive;
+    font-weight: 900;
+    color: darkseagreen;
+    font-size: 17px;
+    text-shadow: 2px 2px 0px black;
+}
+
+#star {
+    color: mediumseagreen;
+}
+
+.questions420 {
+ float: left;
+}
+
+.questions420 p {
+    color: #336633;
+    background-color: darkseagreen;
+    padding: 10px 10px 5px 10px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+}
+
+.questions420 input {
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    margin-bottom: 25px;
+    color: #003300;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;            
+}
+
+#question1 {
+    width: 180px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#question2 {
+    width: 180px;
+    margin-right: 20px;
+}
+
+#question3 {
+    width: 180px
+}
+
+#question4 {
+width: 170px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#question5 {
+width: 190px;
+    
+    margin-right: 20px;
+}
+
+#question6 {
+    width: 180px;
+}
+
+#question7 {
+ width: 180px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#question8 {
+ width: 180px;
+
+    margin-right: 20px;
+}
+
+#question9 {
+ width: 180px;
+    
+}
+
+#question10 {
+     color: #336633;
+    background-color: darkseagreen;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+    float: left;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    height: 50px
+}
+
+#question11 {
+    width: 195px;
+   
+}
+
+#question12 {
+    width: 450px;
+    margin-left: 75px;
+}
+
+#question13 {
+    width: 350px;
+    margin-left: 125px;
+}
+
+#question14 {
+    width: 500px;
+    margin-left: 50px;
+}
+
+#question15 {
+    margin-left: 35px;
+}
+
+#question16 {
+    width: 260px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#question17 {
+    width: 260px;
+
+}
+
+#question18 {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+/* #question19 {
+
+} */
+
+#question20 {
+margin-left: 15px;
+    margin-right: 22px;
+}
+
+/* #question21 {
+
+} */
+
+#question22 {
+    margin-left: 40px
+}
+
+#question23 {
+    margin-left: 75px;
+}
+
+#question24 {
+    margin-left: 50px;
+}
+
+#question25 {
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+/* #question26 {
+
+} */
+
+#question27 {
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+/* #question28 {
+
+} */
+
+#question29 {
+    margin-left: 9px;
+    margin-right: 10px;
+}
+
+/* #question30 {
+
+} */
+
+#question31 {
+    margin-left: 100px;
+}
+
+#question32 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* #question33 {
+
+} */
+
+#question34 {
+    margin-left: 30px;
+    margin-right: 50px;
+
+}
+
+/* #question35 {
+
+} */
+
+#question36 {
+margin-left: 60px;
+    margin-right: 50px
+}
+
+/* #question37 {
+
+} */
+
+#question38 {
+    margin-left: 25px;
+}
+
+#question39 {
+    margin-left: 145px;
+}
+
+#question40 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* #question41 {
+
+} */
+
+#question42 {
+    margin-left: 115px;
+}
+
+#question43 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* #question44 {
+
+} */
+
+#question45 {
+    margin-left: 90px;
+}
+
+#question46 {
+    margin-left: 155px;
+}
+
+#question47 {
+    margin-left: 105px;
+}
+
+#question48 {
+    margin-left: 22px;
+
+}
+
+#question49 {
+    margin-left: 40px;
+}
+
+#question50 {
+    margin-left: 60px;
+}
+
+#question51 {
+    margin-left: 60px;
+}
+
+#question52 {
+    margin-left: 135px;
+}
+
+#question53 {
+    margin-left: 38px;
+}
+
+#question54 {
+    margin-left: 55px;
+}
+
+#question55 {
+    margin-left: 95px;
+}
+
+#question56 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* #question57 {
+
+} */
+
+#question58 {
+    margin-left: 75px;
+}
+
+#question59 {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+#question60 {
+  color: #336633;
+    background-color: darkseagreen;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+    float: left;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    height: 50px
+}
+
+#question61 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* #question62 {
+
+} */
+
+#question63 {
+    margin-left: 4px;
+    margin-right: 4px
+}
+
+/* #question64 {
+
+} */
+
+#question65 {
+    margin-right: 50px;
+    margin-left: 75px;
+}
+
+/* #question66 {
+
+} */
+
+#question67 {
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+/* #question68 {
+
+} */
+
+#question69 {
+    margin-left: 125px;
+}
+
+#question70 {
+    margin-left: 25px;
+}
+
+#question71 {
+    margin-left: 13px;
+}
+
+#question72 {
+    margin-left: 13px;
+}
+
+#question73 {
+    margin-left: 19px;
+}
+
+#question74 {
+    margin-left: 100px;
+}
+
+#question75 {
+    margin-left: 100px;
+}
+
+#question76 {
+    margin-left: 70px;
+}
+
+#question77 {
+    margin-left: 55px;
+}
+
+#question78 {
+    margin-left: 100px;
+}
+
+#question79 {
+    margin-left: 55px;
+}
+
+#question80 {
+    margin-left: 110px;
+}
+
+#question81 {
+    margin-left: 100px;
+}
+
+#question82 {
+    margin-left: 65px;
+}
+
+#question83 {
+    margin-left: 35px;
+}
+
+#question84 {
+    margin-left: 140px;
+}
+
+#question85 {
+    margin-left: 7px;
+}
+
+#question86 {
+    margin-left: 7px;
+}
+
+#question87 {
+    margin-left: 35px;
+}
+
+#question88 {
+    margin-left: 25px;
+}
+
+#question89 {
+    margin-left: 50px;
+}
+
+#question90 {
+    margin-left: 30px;
+}
+
+#question91 {
+    margin-left: 30px;
+}
+
+#question92 {
+    margin-left: 25px;
+}
+
+#question93 {
+    margin-left: 25px;
+}
+
+#question94 {
+    margin-left: 25px;
+}
+
+#question95 {
+    margin-left: 100px;
+}
+
+#question96 {
+    margin-left: 45px;
+}
+
+#question97 {
+    margin-left: 60px;
+}
+
+#question98 {
+    margin-left: 30px;
+}
+
+#question99 {
+    margin-left: 25px;
+}
+
+#question100 {
+    margin-left: 14px;
+}
+
+#question101 {
+    margin-left: 85px;
+}
+
+#question102 {
+    margin-left: 18px;
+}
+
+#question103 {
+    margin-left: 15px;
+}
+
+#question104 {
+    margin-left: 13px;
+}
+
+#question105 {
+    margin-left: 190px;
+}
+
+#question106 {
+    margin-left: 95px;
+}
+
+#question107 {
+    margin-left: 45px;
+}
+
+#question108 {
+    margin-left: 110px;
+}
+
+#question109 {
+    margin-left: 65px;
+}
+
+#question110 {
+    margin-left: 140px;
+}
+
+#question111 {
+    margin-left: 110px;
+}
+
+#question112 {
+    margin-left: 80px;
+}
+
+#question113 {
+    margin-left: 5px;
+}
+
+#question114 {
+    margin-left: 105px;
+}
+
+#question115 {
+    margin-left: 25px;
+}
+
+#question116 {
+    margin-left: 15px;
+}
+
+#question117 {
+    margin-left: 15px;
+}
+
+#question118 {
+    margin-left: 105px;
+}
+
+#question119 {
+    margin-left:100px;
+}
+
+#question120 {
+    margin-left: 15px;
+}
+
+#question121 {
+    margin-left: 13px;
+}
+
+#question122 {
+    margin-left:40px;
+}
+
+#question123 {
+    margin-left: 40px;
+}
+
+#question124 {
+    margin-left: 7px;
+}
+
+#question125 {
+    margin-left: 5px;
+}
+
+#question126 {
+    margin-left:5px;
+}
+
+#question127 {
+    margin-left: 150px;
+}
+
+#question128 {
+    margin-left: 20px;
+}
+
+#question129 {
+    margin-left: 15px;
+}
+
+#question130 {
+    margin-left: 90px;
+}
+
+#question131 {
+    margin-left: 25px;
+}
+
+#question132 {
+    margin-left: 80px;
+}
+
+#question133 {
+    margin-left: 75px;
+}
+
+#question134 {
+    margin-left: 45px;
+}
+
+#question135 {
+    margin-left: 175px;
+}
+
+#question136 {
+    margin-left: 115px;
+}
+
+#question137 {
+    margin-left: 110px;
+}
+
+#question138 {
+    margin-left: 8px;
+}
+
+#question139 {
+    margin-left: 35px;
+}
+
+#question140 {
+    margin-left:30px;
+}
+
+#question141 {
+    margin-left:15px;
+}
+
+#question142 {
+    margin-left: 15px;
+}
+
+#question143 {
+    margin-left: 22px;
+}
+
+#question144 {
+    margin-left: 43px;
+}
+
+#question145 {
+    margin-left: 160px;
+}
+
+#question146 {
+    margin-left: 105px;
+}
+
+#question147 {
+    margin-left: 9px;
+}
+
+#question148 {
+    margin-left: 5px;
+}
+
+#question149 {
+    margin-left: 125px;
+}
+
+#question150 {
+    margin-left: 110px;
+}
+
+#question151 {
+    margin-left: 102px;
+}
+
+#question152 {
+    margin-left: 25px;
+}
+
+#question153 {
+    margin-left: 125px;
+}
+
+#question154 {
+    margin-left: 135px;
+}
+
+#question155 {
+    margin-left: 115px;
+}
+
+#question156 {
+    margin-left: 145px;
+}
+
+#question157 {
+    margin-left: 135px;
+}
+
+#question158 {
+    margin-left: 5px;
+}
+
+#question159 {
+    margin-left: 165px;
+}
+
+#question160 {
+    margin-left: 145px;
+}
+
+#question161 {
+    margin-left: 50px;
+}
+
+#question162 {
+    margin-left: 175px;
+}
+
+#question163 {
+    margin-left: 80px;
+}
+
+#question164 {
+    margin-left:115px;
+}
+
+#question165 {
+    margin-left: 10px;
+}
+
+#question166 {
+    margin-left: 10px;
+}
+
+#question167 {
+    margin-left: 15px;
+}
+
+#question168 {
+    margin-left: 15px;
+}
+
+#question169 {
+    margin-left: 150px;
+}
+
+#question170 {
+    margin-left: 100px;
+}
+
+#question171 {
+    margin-left: 70px;
+}
+
+#question172 {
+    margin-left: 70px;
+}
+
+#question173 {
+    margin-left: 70px;
+}
+
+#question174 {
+    margin-left: 150px;
+}
+
+#question175 {
+    margin-left: 9px;
+}
+
+#question176 {
+    margin-left: 100px;
+}
+
+#question177 {
+    margin-left: 150px;
+}
+
+#question178 {
+    margin-left: 35px;
+}
+
+#question179 {
+    margin-left: 19px;
+}
+
+#question180 {
+    margin-left: 50px;
+}
+
+#question181 {
+    margin-left: 50px;
+}
+
+#question182 {
+    margin-left: 65px;
+}
+
+#question183 {
+    margin-left: 45px;
+}
+
+#question184 {
+    margin-left: 80px;
+}
+
+#question185 {
+    margin-left: 170px;
+}
+
+#question186 {
+    margin-left: 40px;
+}
+
+#question187 {
+    margin-left: 85px;
+}
+
+#question188 {
+    margin-left: 23px;
+}
+
+#question189 {
+    margin-left: 60px;
+}
+
+#question190 {
+    margin-left: 60px;
+}
+
+#question191 {
+    margin-left: 55px;
+}
+
+#question192 {
+    margin-left: 9px;
+}
+
+#question193 {
+    margin-left: 9px;
+}
+
+#question194 {
+    margin-left: 37px;
+}
+
+#question195 {
+    margin-left: 50px;
+}
+
+#question196 {
+    margin-left: 33px;
+}
+
+#question197 {
+    margin-left: 60px;
+}
+
+#question198 {
+    margin-left: 55px;
+}
+
+#question199 {
+    margin-left:23px;
+}
+
+#question200 {
+    margin-left: 15px;
+}
+
+#question201 {
+    margin-left: 175px;
+}
+
+#question202 {
+    margin-left: 40px;
+}
+
+#question203 {
+    margin-left: 150px;
+}
+
+#question204 {
+    margin-left: 100px;
+}
+
+#question205 {
+    margin-left: 145px;
+}
+
+#question206 {
+    margin-left: 130px;
+}
+
+#question207 {
+    margin-left: 8px;
+}
+
+#question208 {
+    margin-left: 7px;
+}
+
+#question209 {
+    margin-left: 9px;
+}
+
+#question210 {
+    margin-left: 9px;
+}
+
+#question211 {
+    margin-left: 50px;
+}
+
+#question212 {
+    margin-left: 40px;
+}
+
+#question213 {
+    margin-left: 7px;
+}
+
+#question214 {
+    margin-left: 5px;
+}
+
+#question215 {
+    margin-left: 130px;
+}
+
+#question216 {
+    margin-left: 25px;
+}
+
+#question217 {
+    margin-left:10px;
+}
+
+#question218 {
+    margin-left: 65px;
+}
+
+#question219 {
+    margin-left: 15px;
+}
+
+#question220 {
+    margin-left: 12px;
+}
+
+#question221 {
+    margin-left: 40px;
+}
+
+#question222 {
+    margin-left: 25px;
+}
+
+#question223 {
+    margin-left: 150px;
+}
+
+#question224 {
+    margin-left: 40px;
+}
+
+#question225 {
+    margin-left: 35px;
+}
+
+#question226 {
+    margin-left: 35px;
+}
+
+#question227 {
+    margin-left: 14px;
+}
+
+#question228 {
+    margin-left: 14px;
+}
+
+#question229 {
+    margin-left: 60px;
+}
+
+#question230 {
+    margin-left: 140px;
+}
+
+#question231 {
+    margin-left: 155px;
+}
+
+#question232 {
+    margin-left: 120px;
+}
+
+#question233 {
+    margin-left: 143px;
+}
+
+#question234 {
+    margin-left: 6px;
+}
+
+#question235 {
+    margin-left: 125px;
+}
+
+#question236 {
+    margin-left: 110px;
+}
+
+#question237 {
+    margin-left: 115px;
+}
+
+#question238 {
+    margin-left: 38px;
+}
+
+#question239 {
+    margin-left: 140px;
+}
+
+#question240 {
+    margin-left: 20px;
+}
+
+#question241 {
+    margin-left: 125px;
+}
+
+#question242 {
+    margin-left: 8px;
+}
+
+#question243 {
+    margin-left: 7px;
+}
+
+#question244 {
+    margin-left: 8px;
+}
+
+#question245 {
+    margin-left: 5px;
+}
+
+#question246 {
+    margin-left: 40px;
+}
+
+#question247 {
+    margin-left: 25px;
+}
+
+#question248 {
+    margin-left:50px;
+}
+
+#question249 {
+    margin-left: 25px;
+}
+
+#question250 {
+    margin-left: 65px;
+}
+
+#question251 {
+    margin-left: 25px;
+}
+
+#question252 {
+    margin-left: 3px;
+}
+
+#question253 {
+    margin-left: 3px;
+}
+
+#question254 {
+    margin-left: 65px;
+}
+
+#question255 {
+    margin-left: 55px;
+}
+
+#question256 {
+    margin-left: 160px;
+}
+
+#question257 {
+    margin-left: 6px;
+}
+
+#question258 {
+    margin-left: 65px;
+}
+
+#question259 {
+    margin-left: 155px;
+}
+
+#question260 {
+    margin-left: 105px;
+}
+
+#question261 {
+    margin-left: 90px;
+}
+
+#question262 {
+    margin-left: 20px;
+}
+
+#question263 {
+    margin-left: 150px;
+}
+
+#question264 {
+    margin-left: 55px;
+}
+
+#question265 {
+    margin-left: 50px;
+}
+
+#question266 {
+    margin-left: 40px;
+}
+
+#question267 {
+    margin-left: 6px;
+}
+
+#question268 {
+    margin-left: 5px;
+}
+
+#question269 {
+    margin-left: 165px;
+}
+
+#question270 {
+    margin-left: 10px;
+}
+
+#question271 {
+    margin-left: 10px;
+}
+
+#question272 {
+    margin-left: 165px;
+}
+
+#question273 {
+    margin-left: 15px;
+}
+
+#question274 {
+    margin-left:10px;
+}
+
+#question275 {
+    margin-left: 8px;
+}
+
+#question276 {
+    margin-left: 5px;
+}
+
+#question277 {
+    margin-left: 150px;
+}
+
+#question278 {
+    margin-left: 165px;
+}
+
+#question279 {
+    margin-left: 135px;
+}
+
+#question280 {
+    margin-left: 135px;
+}
+
+#question281 {
+    margin-left: 145px;
+}
+
+#question282 {
+    margin-left: 75px;
+}
+
+#question283 {
+    margin-left: 80px;
+}
+
+#question284 {
+    margin-left: 165px;
+}
+
+#question285 {
+    margin-left: 105px;
+}
+
+#question286 {
+    margin-left: 65px;
+}
+
+#question287 {
+    margin-left: 150px;
+}
+
+#question288 {
+    margin-left: 138px;
+}
+
+#question289 {
+    margin-left: 45px;
+}
+
+#question290 {
+    margin-left: 75px;
+}
+
+#question291 {
+    margin-left: 75px;
+}
+
+#question292 {
+    margin-left: 55px;
+}
+
+#question293 {
+    margin-left: 100px; 
+}
+
+#question294 {
+    margin-left: 103px;
+}
+
+#question295 {
+    margin-left: 25px;
+}
+
+#question296 {
+    margin-left: 100px;
+}
+
+#question297 {
+    margin-left: 70px;
+}
+
+#question298 {
+    margin-left: 70px;
+}
+
+#question299 {
+    margin-left: 100px;
+}
+
+#question300 {
+    margin-left: 30px;
+}
+
+#question301 {
+    margin-left: 60px;
+}
+
+#question302 {
+    margin-left: 18px;
+}
+
+#question303 {
+    margin-left: 10px;
+}
+
+#question304 {
+    margin-left: 85px;
+}
+
+#question305 {
+    margin-left: 55px;
+}
+
+#question306 {
+    margin-left: 90px;
+}
+
+#question307 {
+    margin-left: 125px;
+}
+
+#question308 {
+    margin-left: 115px;
+}
+
+#question309 {
+    margin-left: 85px;
+}
+
+#question310 {
+    margin-left: 65px;
+}
+
+#question311 {
+    margin-left: 135px;
+}
+
+#question312 {
+    margin-left: 65px;
+}
+
+#question313 {
+    margin-left: 120px;
+}
+
+#question314 {
+    margin-left: 70px;
+}
+
+#question315 {
+    margin-left: 90px;
+}
+
+#question316 {
+    margin-left: 55px;
+}
+
+#question317 {
+    margin-left: 125px;
+}
+
+#question318 {
+    margin-left: 125px;
+}
+
+#question319 {
+    margin-left: 40px;
+}
+
+#question320 {
+    margin-left: 25px;
+}
+
+#question321 {
+    margin-left: 20px;
+}
+
+#question322 {
+    margin-left: 12px;
+}
+
+#question323 {
+    margin-left: 45px;
+}
+
+#question324 {
+    margin-left: 25px;
+}
+
+#question325 {
+    margin-left: 150px;
+}
+
+#question326 {
+    margin-left: 100px;
+}
+
+#question327 {
+    margin-left: 135px;
+}
+
+#question328 {
+    margin-left: 125px;
+}
+
+#question329 {
+    margin-left: 60px;
+}
+
+#question330 {
+    margin-left: 50px;
+}
+
+#question331 {
+    margin-left: 25px;
+}
+
+#question332 {
+    margin-left: 175px;
+}
+
+#question333 {
+    margin-left: 100px;
+}
+
+#question334 {
+    margin-left: 100px;
+}
+
+#question335 {
+    margin-left: 90px;
+}
+
+#question336 {
+    margin-left: 135px;
+}
+
+#question337 {
+    margin-left: 45px;
+}
+
+#question338 {
+    margin-left: 115px;
+}
+
+#question339 {
+    margin-left: 75px;
+}
+
+#question340 {
+    margin-left: 20px;
+}
+
+#question341 {
+    margin-left: 10px;
+}
+
+#question342 {
+    margin-left: 40px;
+}
+
+#question343 {
+    margin-left: 9px;
+}
+
+#question344 {
+    margin-left: 140px;
+}
+
+#question345 {
+    margin-left: 140px;
+}
+
+#question346 {
+    margin-left: 120px;
+}
+
+#question347 {
+    margin-left: 140px;
+}
+
+#question348 {
+    margin-left: 105px;
+}
+
+#question349 {
+    margin-left: 4px;
+}
+
+#question350 {
+    margin-left: 4px;
+}
+
+#question351 {
+    margin-left: 135px;
+}
+
+#question352 {
+    margin-left: 85px;
+}
+
+#question353 {
+    margin-left: 105px;
+}
+
+#question354 {
+    margin-left: 15px;
+}
+
+#question355 {
+    margin-left: 65px;
+}
+
+#question356 {
+    margin-left: 35px;
+}
+
+#question357 {
+    margin-left: 30px;
+}
+
+#question358 {
+    margin-left: 155px;
+}
+
+#question359 {
+    margin-left: 105px;
+}
+
+#question360 {
+    margin-left: 30px;
+}
+
+#question361 {
+    margin-left: 15px;
+}
+
+#question362 {
+    margin-left: 30px;
+}
+
+#question363 {
+    margin-left: 25px;
+}
+
+#question364 {
+    margin-left: 65px;
+}
+
+#question365 {
+    margin-left: 25px;
+}
+
+#question366 {
+    margin-left: 50px;
+}
+
+#question367 {
+    margin-left: 60px;
+}
+
+#question368 {
+    margin-left: 25px;
+}
+
+#question369 {
+    margin-left: 80px;
+}
+
+#question370 {
+    margin-left: 25px;
+}
+
+#question371 {
+    margin-left: 65px;
+}
+
+#question372 {
+    margin-left: 25px;
+}
+
+#question373 {
+    margin-left: 110px;
+}
+
+#question374 {
+    margin-left: 125px;
+}
+
+#question375 {
+    margin-left: 14px;
+}
+
+#question376 {
+    margin-left: 25px;
+}
+
+#question377 {
+    margin-left: 25px;
+}
+
+#question378 {
+    margin-left:150px;
+}
+
+#question379 {
+    margin-left: 150px;
+}
+
+#question380 {
+    margin-left: 175px;
+}
+
+#question381 {
+    margin-left: 80px;
+}
+
+#question382 {
+    margin-left: 25px;
+}
+
+#question383 {
+    margin-left: 40px;
+}
+
+#question384 {
+    margin-left: 65px;
+}
+
+#question385 {
+    margin-left:75px;
+}
+
+#question386 {
+    margin-left: 155px;
+}
+
+#question387 {
+    margin-left: 105px;
+}
+
+#question388 {
+    margin-left: 108px;
+}
+
+#question389 {
+    margin-left: 102px;
+}
+
+#question390 {
+    margin-left: 140px;
+}
+
+#question391 {
+    margin-left: 120px;
+}
+
+#question392 {
+    margin-left: 125px;
+}
+
+#question393 {
+    margin-left: 115px;
+}
+
+#question394 {
+    margin-left: 70px;
+}
+
+#question395 {
+    margin-left: 55px;
+}
+
+#question396 {
+    margin-left: 22px;
+}
+
+#question397 {
+    margin-left: 40px;
+}
+
+#question398 {
+    margin-left: 13px;
+}
+
+#question399 {
+    margin-left: 10px;
+}
+
+#question400 {
+    margin-left: 90px;
+}
+
+#question401 {
+    margin-left: 10px;
+}
+
+#question402 {
+    margin-left: 5px;
+}
+
+#question403 {
+    margin-left: 50px;
+}
+
+#question404 {
+    margin-left: 25px;
+}
+
+#question405 {
+    margin-left: 6px;
+}
+
+#question406 {
+    margin-left: 5px;
+}
+
+#question407 {
+    margin-left: 50px;
+}
+
+#question408 {
+    margin-left: 15px;
+}
+
+#question409 {
+    margin-left: 10px;
+}
+
+#question410 {
+    margin-left: 30px;
+}
+
+#question411 {
+    margin-left: 25px;
+}
+
+#question412 {
+    margin-left: 20px;
+}
+
+#question413 {
+    margin-left: 15px;
+}
+
+#question414 {
+    margin-left: 55px;
+}
+
+#question415 {
+    margin-left: 50px;
+}
+
+#question416 {
+    margin-left: 160px;
+}
+
+#question417 {
+    margin-left: 35px;
+}
+
+#question418 {
+    margin-left: 20px;
+}
+
+#question419 {
+    margin-left: 25px;
+}
+
+#question420 {
+    margin-left: 45px;
+    
+}
+
+
+#answer1 {
+    width: 156px
+}
+
+#answer2 {
+    width: 156px
+}
+
+#answer3 {
+    width: 156px;
+}
+
+#answer4 {
+    width: 146px;
+}
+
+#answer5{
+     width: 166px;
+}
+
+#answer6 {
+     width: 156px;
+}
+
+#answer7 {
+    width: 156px;
+}
+
+#answer8 {
+    width: 156px;
+}
+
+#answer9 {
+    width: 156px;
+}
+
+#answer10a {
+    float: left;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    color: #003300;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;   
+}
+
+#answer10b {
+   float: left;
+    padding-left: 15px;
+    margin-left: -10px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    color: #003300;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;   
+}
+
+#answer10c {
+   float: left;
+    padding-left: 1px;
+    margin-left: -10px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    color: #003300;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    
+}
+
+#answer11 {
+width: 171px;
+
+}
+
+#answer12 {
+     width: 427px;
+}
+
+#answer13 {
+    width: 326px;
+}
+
+#answer14 {
+    width: 475px;
+}
+
+#answer15 {
+    width: 510px;
+}
+
+#answer16 {
+    width: 236px;
+}
+
+#answer17 {
+    width: 236px
+}
+
+#answer18 {
+    width: 335px;
+}
+
+#answer19 {
+    width: 135px;
+}
+
+#answer20 {
+    width: 250px;
+}
+
+#answer21 {
+    width: 250px;
+}
+
+#answer22 {
+    width: 500px
+}
+
+#answer23 {
+    width: 403px;
+}
+
+#answer24 {
+    width: 452px;
+}
+
+#answer25 {
+    width: 250px;
+}
+
+#answer26 {
+    width: 250px;
+}
+
+#answer27 {
+    width: 250px;
+}
+
+#answer28 {
+    width: 250px;
+}
+
+#answer29 {
+width: 275px;
+}
+
+#answer30 {
+    width: 250px;
+}
+
+#answer31 {
+width: 350px;
+}
+
+#answer32 {
+    width: 300px;
+}
+
+#answer33 {
+    width: 225px;
+}
+
+#answer34 {
+    width: 260px
+}
+
+#answer35 {
+    width: 175px
+}
+
+#answer36 {
+    width: 200px
+}
+
+#answer37 {
+    width: 225px;
+}
+
+#answer38 {
+    width: 525px;
+}
+
+#answer39 {
+    width: 305px;
+    
+}
+
+#answer40 {
+    width: 282px;
+}
+
+#answer41 {
+    width: 210px;
+}
+
+#answer42 {
+    width: 355px;
+}
+
+#answer43 {
+    width: 210px
+}
+
+#answer44 {
+    width: 300px;
+}
+
+#answer45 {
+    width: 400px;
+}
+
+#answer46 {
+    width: 275px;
+}
+
+#answer47 {
+    width: 375px;
+}
+
+#answer48 {
+    width: 535px;
+}
+
+#answer49 {
+    width: 500px;
+}
+
+#answer50 {
+    width: 455px;
+}
+
+#answer51 {
+    width: 455px;
+}
+
+#answer52 {
+    width: 300px
+}
+
+#answer53 {
+    width: 500px;
+}
+
+#answer54 {
+    width: 455px;
+}
+
+#answer55 {
+    width: 375px;
+}
+
+#answer56 {
+    width: 266px;
+}
+
+#answer57 {
+    width: 260px;
+}
+
+#answer58 {
+    width: 425px;
+}
+
+#answer59 {
+    width: 225px;
+}
+
+#answer60a {
+    float: left;
+    padding-left: 15px;
+    margin-left: -5px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    color: #003300;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;   
+}
+
+#answer60b {
+   float: left;
+    padding-left: 15px;
+    margin-left: -10px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    color: #003300;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;   
+}
+
+#answer60c {
+   float: left;
+    padding-left: 1px;
+    margin-left: -10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    color: #003300;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    
+}
+
+#answer61 {
+    width: 375px;
+}
+
+#answer62 {
+    width: 150px;
+}
+
+#answer63 {
+    width: 300px
+}
+
+#answer64 {
+    width: 240px;
+}
+
+#answer65 {
+    width: 185px;
+}
+
+#answer66 {
+    width: 175px;
+}
+
+#answer67 {
+    width: 195px;
+}
+
+#answer68 {
+    width: 300px;
+}
+
+#answer69 {
+    width: 325px;
+}
+
+#answer70 {
+    width: 525px;
+}
+
+#answer71 {
+    width: 550px;
+}
+
+#answer72 {
+    width: 550px;
+}
+
+#answer73 {
+    width: 535px;
+}
+
+#answer74 {
+    width: 375px;
+}
+
+#answer75 {
+    width: 375px;
+}
+
+#answer76 {
+    width: 435px;
+}
+
+#answer77 {
+    width: 460px;
+}
+
+#answer78 {
+    width: 375px;
+}
+
+#answer79 {
+    width: 460px;
+}
+
+#answer80 {
+    width: 335px;
+}
+
+#answer81 {
+    width: 355px;
+}
+
+#answer82 {
+    width: 435px;
+}
+
+#answer83 {
+    width: 510px;
+}
+
+#answer84 {
+    width: 305px;
+}
+
+#answer85 {
+    width: 310px;
+}
+
+#answer86 {
+    width: 220px;
+}
+
+#answer87 {
+    width: 200px;
+}
+
+#answer88 {
+    width: 255px
+}
+
+#answer89 {
+    width: 225px;
+}
+
+#answer90 {
+    width: 200px;
+}
+
+#answer91 {
+    width: 210px
+}
+
+#answer92 {
+    width: 260px;
+}
+
+#answer93 {
+    width: 225px;
+}
+
+#answer94 {
+    width: 255px;
+}
+
+#answer95 {
+    width: 390px;
+}
+
+#answer96 {
+    width: 485px;
+}
+
+#answer97 {
+    width: 455px;
+}
+
+#answer98 {
+    width: 210px;
+}
+
+#answer99 {
+    width: 250px
+}
+
+#answer100 {
+    width: 550px; 
+}
+
+#answer101 {
+    width: 400px;
+}
+
+#answer102 {
+    width: 540px;
+}
+
+#answer103 {
+    width: 175px; 
+}
+
+#answer104 {
+    width: 335px;
+}
+
+#answer105 {
+    width: 210px;
+}
+
+#answer106 {
+    width: 400px;
+}
+
+#answer107 {
+    width: 485px;
+}
+
+#answer108 {
+    width: 350px;
+}
+
+#answer109 {
+    width: 450px;
+}
+
+#answer110 {
+    width: 285px;
+}
+
+#answer111 {
+    width: 350px;
+}
+
+#answer112 {
+    width: 425px;
+}
+
+#answer113 {
+    width: 565px;
+}
+
+#answer114 {
+    width: 360px;
+}
+
+#answer115 {
+    width: 525px;
+}
+
+#answer116 {
+    width: 230px;
+}
+
+#answer117 {
+    width: 275px;
+}
+
+#answer118 {
+    width: 365px;
+}
+
+#answer119 {
+    width: 375px;
+}
+
+#answer120 {
+    width: 255px;
+}
+
+#answer121 {
+    width: 255px
+}
+
+#answer122 {
+    width: 255px;
+}
+
+#answer123 {
+    width: 180px;
+}
+
+#answer124 {
+    width: 177px;
+}
+
+#answer125 {
+    width: 169px;
+}
+
+#answer126 {
+    width: 160px;
+}
+
+#answer127 {
+    width: 275px;
+}
+
+#answer128 {
+    width: 325px;
+}
+
+#answer129 {
+    width: 170px;
+}
+
+#answer130 {
+    width: 200px;
+}
+
+#answer131 {
+    width: 150px;
+}
+
+#answer132 {
+    width: 425px;
+}
+
+#answer133 {
+    width: 175px;
+}
+
+#answer134 {
+    width: 190px;
+}
+
+#answer135 {
+    width: 200px;
+}
+
+#answer136 {
+    width: 355px;
+}
+
+#answer137 {
+    width: 360px;
+}
+
+#answer138 {
+    width: 560px;
+}
+
+#answer139 {
+    width: 250px;
+}
+
+#answer140 {
+    width: 205px;
+}
+
+#answer141 {
+    width: 235px;
+}
+
+#answer142 {
+    width: 275px;
+}
+
+#answer143 {
+    width: 530px;
+}
+
+#answer144 {
+    width: 485px;
+}
+
+#answer145 {
+    width: 235px;
+}
+
+#answer146 {
+    width: 355px;
+}
+
+#answer147 {
+    width: 195px;
+}
+
+#answer148 {
+    width: 335px;
+}
+
+#answer149 {
+    width: 350px;
+}
+
+#answer150 {
+    width: 375px;
+}
+
+#answer151 {
+    width: 390px;
+}
+
+#answer152 {
+    width: 525px;
+}
+
+#answer153 {
+    width: 325px;
+}
+
+#answer154 {
+    width: 300px;
+}
+
+#answer155 {
+    width: 340px;
+}
+
+#answer156 {
+    width: 265px;
+}
+
+#answer157 {
+    width: 290px;
+}
+
+#answer158 {
+    width: 565px;
+}
+
+#answer159 {
+    width: 265px;
+}
+
+#answer160 {
+    width: 300px;
+}
+
+#answer161 {
+    width: 480px;
+}
+
+#answer162 {
+    width: 200px;
+}
+
+#answer163 {
+    width: 410px;
+}
+
+#answer164 {
+    width: 325px;
+}
+
+#answer165 {
+    width: 340px;
+}
+
+#answer166 {
+    width: 180px;
+}
+
+#answer167 {
+    width: 255px;
+}
+
+#answer168 {
+    width: 255px;
+}
+
+#answer169 {
+    width: 250px;
+}
+
+#answer170 {
+    width: 375px;
+}
+
+#answer171 {
+    width: 435px;
+}
+
+#answer172 {
+    width: 435px;
+}
+
+#answer173 {
+    width: 435px;
+}
+
+#answer174 {
+    width: 265px;
+}
+
+#answer175 {
+    width: 560px;
+}
+
+#answer176 {
+    width: 375px;
+}
+
+#answer177 {
+    width: 250px;
+}
+
+#answer178 {
+    width: 505px;
+}
+
+#answer179 {
+    width: 540px;
+}
+
+#answer180 {
+    width: 465px;
+}
+
+#answer181 {
+    width: 465px;
+}
+
+#answer182 {
+    width: 440px;
+}
+
+#answer183 {
+    width: 485px;
+}
+
+#answer184 {
+    width: 405px;
+}
+
+#answer185 {
+    width: 210px;
+}
+
+#answer186 {
+    width: 500px;
+}
+
+#answer187 {
+    width: 400px;
+}
+
+#answer188 {
+    width: 530px;
+}
+
+#answer189 {
+    width: 450px;
+}
+
+#answer190 {
+    width: 450px;
+}
+
+#answer191 {
+    width: 465px;
+}
+
+#answer192 {
+    width: 560px; 
+}
+
+#answer193 {
+    width: 560px;
+}
+
+#answer194 {
+    width: 500px;
+}
+
+#answer195 {
+    width: 225px;
+}
+
+#answer196 {
+    width: 190px;
+}
+
+#answer197 {
+    width: 225px;
+}
+
+#answer198 {
+    width: 150px;
+}
+
+#answer199 {
+    width: 300px;
+}
+
+#answer200 {
+    width: 190px;
+}
+
+#answer201 {
+    width: 200px;
+}
+
+#answer202 {
+    width: 500px;
+}
+
+#answer203 {
+    width: 275px;
+}
+
+#answer204 {
+    width: 385px;
+}
+
+#answer205 {
+    width: 275px;
+}
+
+#answer206 {
+    width: 300px;
+}
+
+#answer207 {
+    width: 285px;
+}
+
+#answer208 {
+    width: 245px;
+}
+
+#answer209 {
+    width: 280px;
+}
+
+#answer210 {
+    width: 245px;
+}
+
+#answer211 {
+    width: 240px;
+}
+
+#answer212 {
+    width: 170px;
+}
+
+#answer213 {
+    width: 300px;
+}
+
+#answer214 {
+    width: 230px;
+}
+
+#answer215 {
+    width: 305px;
+}
+
+#answer216 {
+    width: 270px;
+}
+
+#answer217 {
+    width: 225px;
+}
+
+#answer218 {
+    width: 440px;
+}
+
+#answer219 {
+    width: 260px;
+}
+
+#answer220 {
+    width: 250px;
+}
+
+#answer221 {
+    width: 260px;
+}
+
+#answer222 {
+    width: 185px;
+}
+
+#answer223 {
+    width: 240px;
+}
+
+#answer224 {
+    width: 490px;
+}
+
+#answer225 {
+    width: 500px;
+}
+
+#answer226 {
+    width: 500px;
+}
+
+#answer227 {
+    width: 550px;
+}
+
+#answer228 {
+    width: 550px;
+}
+
+#answer229 {
+    width: 450px;
+}
+
+#answer230 {
+    width: 300px;
+}
+
+#answer231 {
+    width: 255px;
+}
+
+#answer232 {
+    width: 330px;
+}
+
+#answer233 {
+    width: 275px;
+}
+
+#answer234 {
+    width: 565px; 
+}
+
+#answer235 {
+    width: 325px
+}
+
+#answer236 {
+    width: 350px;
+}
+
+#answer237 {
+    width: 330px;
+}
+
+#answer238 {
+    width: 500px;
+}
+
+#answer239 {
+    width: 300px;
+}
+
+#answer240 {
+    width: 535px;
+}
+
+#answer241 {
+    width: 305px;
+}
+
+#answer242 {
+    width: 250px;
+}
+
+#answer243 {
+    width: 280px;
+}
+
+#answer244 {
+    width: 240px;
+}
+
+#answer245 {
+    width: 290px;
+}
+
+#answer246 {
+    width: 250px;
+}
+
+#answer247 {
+    width: 200px;
+}
+
+#answer248 {
+    width: 250px;
+}
+
+#answer249 {
+    width: 180px;
+}
+
+#answer250 {
+    width: 190px;
+}
+
+#answer251 {
+    width: 205px;
+}
+
+#answer252 {
+    width: 210px;
+}
+
+#answer253 {
+    width: 330px;
+}
+
+#answer254 {
+    width: 440px;
+}
+
+#answer255 {
+    width: 465px;
+}
+
+#answer256 {
+    width: 250px;
+}
+
+#answer257 {
+    width: 565px; 
+}
+
+#answer258 {
+    width: 440px;
+}
+
+#answer259 {
+    width: 240px;
+}
+
+#answer260 {
+    width: 330px;
+}
+
+#answer261 {
+    width: 365px;
+}
+
+#answer262 {
+    width: 540px;
+}
+
+#answer263 {
+    width: 240px;
+}
+
+#answer264 {
+    width: 465px;
+}
+
+#answer265 {
+    width: 475px; 
+}
+
+#answer266 {
+    width: 500px;
+}
+
+#answer267 {
+    width: 275px;
+}
+
+#answer268 {
+    width: 260px;
+}
+
+#answer269 {
+    width: 265px;
+}
+
+#answer270 {
+    width: 280px;
+}
+
+#answer271 {
+    width: 245px;
+}
+
+#answer272 {
+    width: 255px;
+}
+
+#answer273 {
+    width: 315px;
+}
+
+#answer274 {
+    width: 200px;
+}
+
+#answer275 {
+    width: 215px;
+}
+
+#answer276 {
+    width: 315px;
+}
+
+#answer277 {
+    width: 305px;
+}
+
+#answer278 {
+    width: 260px; 
+}
+
+#answer279 {
+    width: 320px;
+}
+
+#answer280 {
+    width: 325px;
+}
+
+#answer281 {
+    width: 300px;
+}
+
+#answer282 {
+    width: 425px;
+}
+
+#answer283 {
+    width: 410px;
+}
+
+#answer284 {
+    width: 250px;
+}
+
+#answer285 {
+    width: 380px;
+}
+
+#answer286 {
+    width: 445px;
+}
+
+#answer287 {
+    width: 280px;
+}
+
+#answer288 {
+    width: 305px;
+}
+
+#answer289 {
+    width: 485px;
+}
+
+#answer290 {
+    width: 430px;
+}
+
+#answer291 {
+    width: 430px;
+}
+
+#answer292 {
+    width: 465px;
+}
+
+#answer293 {
+    width: 355px;
+}
+
+#answer294 {
+    width: 345px;
+}
+
+#answer295 {
+    width: 525px;
+}
+
+#answer296 {
+    width: 375px;
+}
+
+#answer297 {
+    width: 440px;
+}
+
+#answer298 {
+    width: 440px;
+}
+
+#answer299 {
+    width: 375px;
+}
+
+#answer300 {
+    width: 515px;
+}
+
+#answer301 {
+    width: 455px;
+}
+
+#answer302 {
+    width: 290px;
+}
+
+#answer303 {
+    width: 215px;
+}
+
+#answer304 {
+    width: 405px;
+}
+
+#answer305 {
+    width: 460px;
+}
+
+#answer306 {
+    width: 390px;
+}
+
+#answer307 {
+    width: 315px;
+}
+
+#answer308 {
+    width: 330px;
+}
+
+#answer309 {
+    width: 395px;
+}
+
+#answer310 {
+    width: 435px;
+}
+
+#answer311 {
+    width: 295px;
+}
+
+#answer312 {
+    width: 450px;
+}
+
+#answer313 {
+    width: 335px;
+}
+
+#answer314 {
+    width: 435px;
+}
+
+#answer315 {
+    width: 390px;
+}
+
+#answer316 {
+    width: 460px;
+}
+
+#answer317 {
+    width: 330px;
+}
+
+#answer318 {
+    width: 330px
+}
+
+#answer319 {
+    width: 270px;
+}
+
+#answer320 {
+    width: 185px;
+}
+
+#answer321 {
+    width: 200px;
+}
+
+#answer322 {
+    width:300px; 
+}
+
+#answer323 {
+    width: 235px;
+}
+
+#answer324 {
+    width: 205px;
+}
+
+#answer325 {
+    width: 245px;
+}
+
+#answer326 {
+    width: 355px;
+}
+
+#answer327 {
+    width: 275px;
+}
+
+#answer328 {
+    width: 300px;
+}
+
+#answer329 {
+    width: 455px;
+}
+
+#answer330 {
+    width: 215px; 
+}
+
+#answer331 {
+    width: 205px;
+}
+
+#answer332 {
+    width: 220px;
+}
+
+#answer333 {
+    width: 365px;
+}
+
+#answer334 {
+    width: 365px;
+}
+
+#answer335 {
+    width: 385px;
+}
+
+#answer336 {
+    width: 285px;
+}
+
+#answer337 {
+    width: 485px;
+}
+
+#answer338 {
+    width: 340px;
+}
+
+#answer339 {
+    width: 420px;
+}
+
+#answer340 {
+    width: 280px;
+}
+
+#answer341 {
+    width: 225px;
+}
+
+#answer342 {
+    width: 485px;
+}
+
+#answer343 {
+    width: 560px;
+}
+
+#answer344 {
+    width: 295px;
+}
+
+#answer345 {
+    width: 295px;
+}
+
+#answer346 {
+    width: 345px;
+}
+
+#answer347 {
+    width: 290px;
+}
+
+#answer348 {
+    width: 375px;
+}
+
+#answer349 {
+    width: 250px;
+}
+
+#answer350 {
+    width: 290px;
+}
+
+#answer351 {
+    width: 305px;
+}
+
+#answer352 {
+    width: 410px;
+}
+
+#answer353 {
+    width: 360px;
+}
+
+#answer354 {
+    width: 545px;
+}
+
+#answer355 {
+    width: 450px;
+}
+
+#answer356 {
+    width: 215px;
+}
+
+#answer357 {
+    width: 240px;
+}
+
+#answer358 {
+    width: 290px;
+}
+
+#answer359 {
+    width: 360px;
+}
+
+#answer360 {
+    width: 240px;
+}
+
+#answer361 {
+    width: 235px;
+}
+
+#answer362 {
+    width: 295px;
+}
+
+#answer363 {
+    width:175px; 
+}
+
+#answer364 {
+    width: 165px;
+}
+
+#answer365 {
+    width: 230px;
+}
+
+#answer366 {
+    width: 480px;
+}
+
+#answer367 {
+    width: 180px;
+}
+
+#answer368 {
+    width: 230px;
+}
+
+#answer369 {
+    width: 175px; 
+}
+
+#answer370 {
+    width: 205px;
+}
+
+#answer371 {
+    width: 230px;
+}
+
+#answer372 {
+    width: 175px;
+}
+
+#answer373 {
+    width: 340px;
+}
+
+#answer374 {
+    width: 310px;
+}
+
+#answer375 {
+    width: 550px; 
+}
+
+#answer376 {
+    width: 265px;
+}
+
+#answer377 {
+    width: 210px;
+}
+
+#answer378 {
+    width: 275px;
+}
+
+#answer379 {
+    width: 275px;
+}
+
+#answer380 {
+    width: 215px;
+}
+
+#answer381 {
+    width: 420px;
+}
+
+#answer382 {
+    width: 525px;
+}
+
+#answer383 {
+    width: 500px; 
+}
+
+#answer384 {
+    width: 450px;
+}
+
+#answer385 {
+    width: 425px;
+}
+
+#answer386 {
+    width: 275px;
+}
+
+#answer387 {
+    width: 365px;
+}
+
+#answer388 {
+    width: 355px;
+}
+
+#answer389 {
+    width: 355px;
+}
+
+#answer390 {
+    width: 265px;
+}
+
+#answer391 {
+    width: 310px;
+}
+
+#answer392 {
+    width: 300px;
+}
+
+#answer393 {
+    width: 315px;
+}
+
+#answer394 {
+    width: 430px;
+}
+
+#answer395 {
+    width: 460px;
+}
+
+#answer396 {
+    width: 535px;
+}
+
+#answer397 {
+    width: 495px;
+}
+
+#answer398 {
+    width: 230px;
+}
+
+#answer399 {
+    width: 285px;
+}
+
+#answer400 {
+    width: 390px;
+}
+
+#answer401 {
+    width: 350px;
+}
+
+#answer402 {
+    width: 180px;
+}
+
+#answer403 {
+    width: 175px;
+}
+
+#answer404 {
+    width: 255px;
+}
+
+#answer405 {
+    width: 255px;
+}
+
+#answer406 {
+    width: 280px; 
+}
+
+#answer407 {
+    width: 470px;
+}
+
+#answer408 {
+    width: 260px;
+}
+
+#answer409 {
+    width: 250px;
+}
+
+#answer410 {
+    width: 250px;
+}
+
+#answer411 {
+    width: 220px;
+}
+
+#answer412 {
+    width: 250px;
+}
+
+#answer413 {
+    width: 250px;
+}
+
+#answer414 {
+    width: 210px;
+}
+
+#answer415 {
+    width: 170px;
+}
+
+#answer416 {
+    width: 250px;
+}
+
+#answer417 {
+    width: 500px;
+}
+
+#answer418 {
+    width: 180px;
+}
+
+#answer419 {
+    width: 305px;
+}
+
+#answer420 {
+    width: 485px;
+    clear: both;
+}
+
+#submit420Answers, #CREATE420Answers {
+    float: left;
+    
+    font-size: 50px;
+    color:  darkseagreen;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif; 
+    padding: 25px 150px; 
+    margin-left: 75px;
+    margin-top: 75px;
+  background-color: #336633;
+    text-shadow: 4px 4px 0px black;
+}
+
+#submit420Answers:hover {
+    color: #336633;
+background: darkseagreen; 
+}
+
+#submit420Answers:active {
+    color: mediumseagreen;
+background-color: #336633; 
+     text-shadow: 4px 4px 0px white;
+}
+
+/*END SECTION 14*/
+
+
+/*START FLOATING BRB*/
+
+#floatingBRB {
+    background-color: black;
+}
+
+.brbImage {
+    margin-bottom: -4px;
+}
+
+#pleaseStandBy {
+    margin-top: -0px;
+    margin-bottom: -4px;
+}
+
+#purpleFoot {
+    margin-top: -11px;
+    margin-bottom: -25px;
+}
+
+#myWorth {
+    margin-top: -135px;
+    margin-left: 5px;
+}
+
+#allevita {
+    margin-bottom: -5px;
+}
+
+#boredalot {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#boredAlotTop {
+    margin-bottom: 50px;
+}
+
+#boredALotBottom {
+    margin-top: 50px;
+}
+
+
+#footerPadding {
+    height: 250px;
+    width: 100%;
+}
+
+/*END FLOATING BRB*/
+
+
+/*
+MY VOICE
+font-family: 'Special Elite', cursive;
+
+
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Allerta', sans-serif;
+font-family: 'Allerta Stencil', sans-serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Asset', cursive;
+font-family: 'Bigshot One', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Diplomata', cursive;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Fontdiner Swanky', cursive;
+font-family: 'Gravitas One', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Passion One', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Old Standard TT', serif;
+font-family: 'Oldenburg', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Stardos Stencil', cursive;
+font-family: 'Sirin Stencil', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'PT Mono', monospace;
+font-family: 'Space Mono', monospace;
+font-family: 'Anton', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Cormorant Upright', serif;
+font-family: 'Courgette', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'VT323', monospace;
+font-family: 'Bahianita', cursive;
+font-family: 'Bahiana', cursive;
+font-family: 'Geostar Fill', cursive;
+font-family: 'Wallpoet', cursive;
+font-family: 'Limelight', cursive;
+font-family: 'Life Savers', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Rochester', cursive;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Lakki Reddy', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Delius Unicase', cursive;
+font-family: 'Mrs Sheppards', cursive;
+font-family: 'East Sea Dokdo', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Baloo', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Boogaloo', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Bevan', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Baloo Bhaina', cursive;
+font-family: 'Changa One', cursive;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Unkempt', cursive;
+font-family: 'Emilys Candy', cursive;
+font-family: 'Oregano', cursive;
+font-family: 'Spicy Rice', cursive;
+font-family: 'Zilla Slab Highlight', cursive;
+font-family: 'Codystar', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Happy Monkey', cursive;
+font-family: 'Salsa', cursive;
+font-family: 'Iceland', cursive;
+font-family: 'Vampiro One', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Wellfleet', cursive;
+font-family: 'Slackey', cursive;
+font-family: 'Elsie', cursive;
+font-family: 'Chicle', cursive;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Trochut', cursive;
+font-family: 'Chango', cursive;
+font-family: 'Unlock', cursive;
+font-family: 'Kavoon', cursive;
+font-family: 'Plaster', cursive;
+font-family: 'Revalia', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Atomic Age', cursive;
+font-family: 'Original Surfer', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Londrina Shadow', cursive;
+font-family: 'Cute Font', cursive;
+font-family: 'Kenia', cursive;
+font-family: 'Emblema One', cursive;
+  
+  
+SPACE TO PASTE FONTS THAT I LIKE WHILE CHOOSING
+  
+
+
+*/
+
+
+/*OLD STUFF TO SORT THROUGH*/
+
+#about {
+    color: #ffff99
+}
+
+#bob {
+    float: right;
+    width: 50%;
+}
+
+#bobText {
+    padding-top: 5px;
+    color: #1fc600;
+}
+
+#bodyDankDemos {
+    /* background-image: url(images/backgroundDankDemos.jpg); */
+    background-repeat: no-repeat;
+}
+
+#buttonPageBody {
+    background-repeat: no-repeat;
+}
+
+#comingSoon {
+    width: 75%;
+    margin: 0 25%;
+    text-align: center;
+}
+
+#headerDankDemos {
+    background-color: #46005D;
+}
+
+#mainDankDemos {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFFF99;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.blogCategories {
+    margin-top: 5px;
+    color: #0eff00;
+    text-align: center;
+    font-variant: small-caps
+}
+
+.blogContainer {
+    padding: 10px;
+}
+
+.blogTools {
+    color: #FEFF99;
+    text-shadow: 3px 3px 10px #46005D;
+}
+
+.haveFun {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #063b00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.headerInfo {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.intro {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainContentContainer {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0a5d00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.mainTagline {
+    color: #FFFF01;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-variant: small-caps
+}
+
+.myCertificates {
+    background-color: #063b00;
+    color: #FFE301;
+    margin-top: 10px;
+}
+
+.toolLinks {
+    color: #CFA8D5;
+    margin-top: 10px;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+}
+
+.toolItem {
+    color: #46005D;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 50px;
+    text-shadow: 5px 5px 18px #CFA8D5;
+}
+
+.pageTitle {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 50px;
+    color: #0eff00;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 5px #181818;
+}
+
+.postFoot {
+    padding-top: 5px;
+    color: #CFA8D5;
+}
+
+.postHead {
+    color: #FFE301;
+    text-align: center;
+    font-variant: small-caps;
+    background-color: #063b00;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-box-shadow: 3px 3px 5px #181818;
+    box-shadow: 3px 3px 5px #181818;
+}
+
+.purpleSmoke {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #7A4791;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.readMore {
+    float: right;
+    color: #CFA8D5;
+}
+
+.thePlanEM {
+    color: #FFFF01;
+    font-size: 20px
+}
