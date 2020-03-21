@@ -1,27 +1,26 @@
 {
     "development": {
-         "username": "ci3f45p9_420",
-         "password": "420Questions",
-         "database": "ci3f45p9_420Questions",
-         "host": "cns59.hostgator.com",
+         "username": "dpzsrxlv12rzq2jy",
+         "password": "izwsacrsxsbqjghb",
+         "database": "aab6i3mobgzxgq6z",
+         "host": "tk3mehkfmmrhjg0b.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
          "port": 3306,
          "dialect": "mysql"
     },
     "test": {
-         "username": "ci3f45p9_420",
-         "password": "420Questions",
-         "database": "ci3f45p9_420Questions",
-         "host": "cns59.hostgator.com",
+         "username": "dpzsrxlv12rzq2jy",
+         "password": "izwsacrsxsbqjghb",
+         "database": "aab6i3mobgzxgq6z",
+         "host": "tk3mehkfmmrhjg0b.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
          "port": 3306,
          "dialect": "mysql"
     },
     "production": {
-         "use_env_variable" : "ClearDB_URL",
-         "host" : "cns59.hostgator.com",
-         "username": "ci3f45p9_420", 
-         "password": "420Questions",
-         "database": "ci3f45p9_420Questions", 
-         "port": 3306,
+         "use_env_variable" : "JawsDB_URL",
+         "host" : "tk3mehkfmmrhjg0b.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+         "username": "dpzsrxlv12rzq2jy", 
+         "password": "izwsacrsxsbqjghb",
+         "database": "aab6i3mobgzxgq6z", 
          "dialect": "mysql"
     }
 }
