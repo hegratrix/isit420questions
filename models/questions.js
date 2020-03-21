@@ -7,6 +7,10 @@ var sequelize = require("../config/connection.js");
 var Answer = sequelize.define(`questions`, {
   number: Sequelize.INTEGER,
   answer: Sequelize.STRING
+},
+{
+  freezeTableName: true,
+  tableName: 'questions'
 })
 
 // Syncs with DB
