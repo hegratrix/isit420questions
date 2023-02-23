@@ -15,7 +15,7 @@
     "mysql2": "^2.1.0",
     "path": "^0.12.7",
     "require": "^2.4.20",
-    "sequelize": "^5.21.3",
+    "sequelize": "^6.28.2",
     "uglify-js": "^3.8.0"
   },
   "devDependencies": {},
